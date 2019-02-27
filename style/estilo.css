@@ -11,7 +11,7 @@ div [alt="logo"], #logo_txt, .container{
 .container-grid{
   display: grid;
   grid-template-columns: 0.3fr 2fr;
-  grid-template-rows: 1fr 6fr;
+  grid-template-rows: 1fr auto;
 }
 .left_menu{
   transition: 0.5s;
@@ -39,4 +39,12 @@ div [alt="logo"], #logo_txt, .container{
   transition: 0.5s;
   opacity: 0;
 
+}
+main{
+  position: relative;
+  border-radius: 25%;
+}
+main > p{
+  font-size: 1em;
+  color: #f0e266;
 }
