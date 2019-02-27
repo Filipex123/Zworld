@@ -11,10 +11,31 @@ div [alt="logo"], #logo_txt, .container{
 .container-grid{
   display: grid;
   grid-template-columns: 0.3fr 2fr;
-  grid-template-rows: auto 100%;
+  grid-template-rows: 1fr 6fr;
 }
 .left_menu{
-  
+  position: relative;
+  height: auto;
+}
+
+.ul_movel{
+  position: absolute;
+  list-style: none;
+  padding: 0px 15px 0px 15px;
+  height: auto;
+  margin-top:16px; 
+  /* margin-bottom:200%;   */
+  background-color: yellow;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.left_menu ul li{
+  padding-top: 50px;
+  padding-bottom:50px; 
+}
+
+.is-hidden{
+  opacity: 0;
 
 
 }
