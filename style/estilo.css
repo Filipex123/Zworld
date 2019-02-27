@@ -1,0 +1,20 @@
+body
+{
+    background-image: url(../imgs/wallpaper.png);
+}
+
+div [alt="logo"], #logo_txt, .container{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.container-grid{
+  display: grid;
+  grid-template-columns: 0.3fr 2fr;
+  grid-template-rows: auto 100%;
+}
+.left_menu{
+  
+
+
+}
